@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<!-- In this file I have explored various types of CSS selctors namely Element-class selector, descendent selector and next child 
+selector -->
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>CSS Selectors</title>
+        <style>
+            /* body {
+                background-color: black;
+            } */
+            p.mark {
+                font-style: italic;
+                color: red;
+            }
+            .highlight.blue {
+                color: blue;
+                background-color: palegreen;
+            }
+            div.highlight {
+                background-color: pink;
+            }
+            section > p {
+                font-size: 24px;
+            }
+            div p {
+                font-family: Arial;
+            }
+            .highlight > p {
+                text-align: center;
+            }
+            article p {
+                padding: 30px;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Exploring CSS Selectors</h1>
+        <div class="highlight">
+            <p class="mark">This is first paragraph</p>
+            <section id=>
+                <p>This is a paragraph inside section inside div</p>
+            </section>
+        </div>
+
+        <article class="highlight blue">
+            <div>
+                <p>This is a test article paragraph</p>
+            </div>
+        </article>
+    </body>
+</html>
